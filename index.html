@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Prints Media | Photography, Graphics & Videography</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo_pure.png">
+    <link rel="apple-touch-icon" href="images/logo_pure.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo_pure.png" alt="Pure Prints Media logo" class="site-logo">
+                        <h2><span class="text-blue">Pure Prints</span> <span class="text-red">Media</span></h2>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html"><i class="fas fa-briefcase"></i> Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photography.html"><i class="fas fa-camera"></i> Photography</a></li>
+                            <li><a href="graphic-design.html"><i class="fas fa-paintbrush"></i> Graphic Design</a></li>
+                            <li><a href="videography.html"><i class="fas fa-film"></i> Videography</a></li>
+                            <li><a href="branding.html"><i class="fas fa-star"></i> Branding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html"><i class="fas fa-images"></i> Portfolio</a></li>
+                    <li class="dropdown">
+                        <a href="index.html"><i class="fas fa-users"></i> About Us <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="team.html"><i class="fas fa-handshake"></i> Our Team</a></li>
+                            <li><a href="mission.html"><i class="fas fa-target"></i> Our Mission</a></li>
+                            <li><a href="values.html"><i class="fas fa-heart"></i> Our Values</a></li>
+                            <li><a href="story.html"><i class="fas fa-history"></i> Our Story</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="images/studiophotography.jpg" alt="Event Photography">
+                <div class="slide-content">
+                    <h2>Capturing Unforgettable Moments</h2>
+                    <p>Professional event photography that tells your story</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/design.jpg" alt="Graphic Design">
+                <div class="slide-content">
+                    <h2>Creative Design Solutions</h2>
+                    <p>Transform your ideas into stunning visual designs</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2031&q=80" alt="Videography">
+                <div class="slide-content">
+                    <h2>Cinematic Video Production</h2>
+                    <p>Bring your stories to life with professional videography</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Branding">
+                <div class="slide-content">
+                    <h2>Complete Branding Solutions</h2>
+                    <p>Build a powerful brand identity that stands out</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Portrait Photography">
+                <div class="slide-content">
+                    <h2>Studio & Portrait Photography</h2>
+                    <p>Professional portraits that capture personality and emotion</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slideshow Navigation -->
+        <div class="slideshow-nav">
+            <button class="slide-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slide-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+            <button class="slide-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Pure Prints Media</h1>
+                    <p class="hero-subtitle">Where Creativity Meets Perfection</p>
+                    <p class="hero-description">Transforming visions into stunning visual stories through photography, design, and motion. Your partner in creative excellence.</p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn primary">Explore Our Work</a>
+                        <a href="#contact" class="btn secondary">Start Your Project</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>150+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Creative Services</h2>
+            <p class="section-subtitle">Comprehensive solutions for all your visual needs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Professional photography for events, portraits, products, and commercial projects with artistic vision.</p>
+                    <ul class="service-features">
+                        <li>Portrait & Studio</li>
+                        <li>Event Coverage</li>
+                        <li>Product Photography</li>
+                        <li>Commercial Shoots</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p>Creative design solutions for branding, marketing materials, and digital media that captivate audiences.</p>
+                    <ul class="service-features">
+                        <li>Logo & Branding</li>
+                        <li>Print Design</li>
+                        <li>Digital Graphics</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videography</h3>
+                    <p>High-quality video production for commercials, corporate films, events, and social media content.</p>
+                    <ul class="service-features">
+                        <li>Commercial Videos</li>
+                        <li>Event Coverage</li>
+                        <li>Social Media Content</li>
+                        <li>Animation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-trademark"></i>
+                    </div>
+                    <h3>Branding</h3>
+                    <p>Complete branding solutions to establish and grow your business identity across all platforms.</p>
+                    <ul class="service-features">
+                        <li>Brand Strategy</li>
+                        <li>Identity Design</li>
+                        <li>Brand Guidelines</li>
+                        <li>Marketing Collateral</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <p class="section-subtitle">A showcase of our creative work and successful projects</p>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="videography">Videography</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="photography">
+                    <img src="images/pure1.jpg" alt="Portrait Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Portrait Series</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/pure2.jpg" alt="Brand Design">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="videography">
+                    <img src="https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Video Production">
+                    <div class="portfolio-overlay">
+                        <h3>Commercial Video</h3>
+                        <p>Videography</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Brand Packaging">
+                    <div class="portfolio-overlay">
+                        <h3>Product Packaging</h3>
+                        <p>Branding</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="photography">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Event Photography">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Event</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Digital Design">
+                    <div class="portfolio-overlay">
+                        <h3>Digital Campaign</h3>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Pure Prints Media</h2>
+                    <p>Pure Prints Media is a premier creative agency specializing in photography, graphic design, videography, and branding solutions. We combine artistic vision with technical expertise to deliver compelling visual content that tells your story and elevates your brand.</p>
+                    <p>Our team of experienced professionals is dedicated to capturing the essence of your vision and transforming it into stunning visual media that resonates with your audience and drives results.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Satisfied Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Our Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to bring your vision to life? Let's talk about your project</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>0705853517</p>
+                            <p>0787493508</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@pureprintsmedia.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Kampala, Uganda</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo_pure.png" alt="Pure Prints Media logo" class="footer-logo-img">
+                     <h3>Pure Prints Media</h3>
+                    <p>Creating visual excellence through photography, design, and videography.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Videography</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pure Prints Media. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <button class="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <button class="chat-button" title="Chat with us">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <!-- Chat Dialog -->
+    <div class="chat-modal" id="chatModal">
+        <div class="chat-modal-content">
+            <button class="chat-close" title="Close chat">&times;</button>
+            
+            <!-- Welcome Screen -->
+            <div class="chat-section" id="welcomeSection">
+                <h3>Welcome to Pure Prints Media</h3>
+                <p>We'd love to help you with your creative project. Please share your details to get started.</p>
+                
+                <form class="chat-form" id="chatForm">
+                    <div class="form-group">
+                        <input type="text" id="chatName" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="chatEmail" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="chatPhone" placeholder="Your Phone (Optional)">
+                    </div>
+                    <button type="submit" class="btn primary">Start Chat</button>
+                </form>
+            </div>
+            
+            <!-- Chat Section -->
+            <div class="chat-section" id="chatSection" style="display: none;">
+                <div class="chat-header">
+                    <h4>Chat with us</h4>
+                    <p id="chatUserGreeting"></p>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <p>Hi! How can we help you today?</p>
+                    </div>
+                </div>
+                
+                <div class="chat-input-area">
+                    <form class="message-form" id="messageForm">
+                        <input type="text" id="messageInput" placeholder="Type your message..." required>
+                        <button type="submit" class="send-btn" title="Send message">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
